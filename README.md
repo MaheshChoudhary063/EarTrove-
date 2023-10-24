@@ -1,7 +1,6 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![Screenshot 2023-10-24 140850](https://github.com/MaheshChoudhary063/EarTrove-/assets/119046042/d8020387-b088-47ec-82e6-a7f01a6664ee)
 
 
 https://github.com/MaheshChoudhary063/EarTrove-/assets/119046042/9acecb44-100d-434d-b49f-fe8af200e687
