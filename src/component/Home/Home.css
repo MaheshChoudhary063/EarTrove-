@@ -7,19 +7,18 @@
   background-color: #fffcfc;
 }
 
-.homeVideo {
+.videoDiv {
   width: 100%;
-  margin-top: 500px;
-  margin-left: 500px;
+  display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.homeVideo .videoDiv {
-  width: 100%;
-}
-.homeVideo .videoDiv .video {
-  border-radius: 10rem;
+.videoDiv .video {
+  border-radius: 50%;
+  max-width: 100%;
+  -webkit-clip-path: ellipse(85% 45% at center);
+          clip-path: ellipse(85% 45% at center);
 }
 
 .homepage {

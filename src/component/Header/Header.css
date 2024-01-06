@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  background-color: rgb(224, 224, 224);
 }
 .header .logo-container {
   height: 100%;

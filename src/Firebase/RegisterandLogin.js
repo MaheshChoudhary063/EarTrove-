@@ -24,7 +24,8 @@ const RegisterAndLogin = () => {
         else{
             signInWithEmailAndPassword(database,email,password).then(data=>{
                 console.log(data,"authData")
-                history('/home')}).catch(err=>{
+                history('/home')();
+            }).catch(err=>{
                     alert(err.code)
                 })
         }

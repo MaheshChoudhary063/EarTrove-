@@ -1,0 +1,41 @@
+/* src/components/AboutUs.css */
+.about-us {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* src/components/Contact.css */
+  .contact {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contact form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact label {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .contact input,
+  .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

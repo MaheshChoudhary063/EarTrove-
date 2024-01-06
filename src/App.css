@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+
+* {
+  box-sizing: border-box;
+}
 body {
   /* background: var(--whiteColor); */
-  background-color: antiquewhite;
-  padding: 20px 60px;
+  /* background-color: antiquewhite; */
+  /* padding: 20px 60px; */
+  margin: 0;
+  padding:  0;
 }
 a{
 text-decoration: none;
@@ -9,4 +18,15 @@ color: black;
 }
 * {
 box-sizing: border-box;
+}
+@media only screen and (max-width: 767px) {
+  /* Styles for mobile devices go here */
+
+  body {
+    /* Adjustments for better mobile readability or spacing */
+    font-size: 14px;
+    /* Additional styles specific to mobile devices */
+  }
+
+  /* Add more styles for other elements as needed */
 }

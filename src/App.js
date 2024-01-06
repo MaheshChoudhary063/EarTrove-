@@ -85,6 +85,7 @@ import { useNavigate } from 'react-router-dom';
 import Home from './component/Home/Home';
 // import Shop from './component/Shop/Shop';
 import Shop from './component/Shop/Shop'
+import Contact from './component/Contact/Contact';
 import Header from './component/Header/Header';
 import SignInSignUp from './component/SignInSignUp/SignInSignUp';
 import Boatt from './component/Boat/Boat';
@@ -95,7 +96,7 @@ import { auth, createUserProfileDocument } from './Firebase/FirebaseUtils';
 import { setCurrentUser } from './redux/user/user.action';
 import { selectCurrentUser } from './redux/user/user.selector'; 
 import CheckoutPage from './component/CheckOut/Checkout';
-
+import './App.css';
 function App({ currentUser, setCurrentUser }) {
   const navigate = useNavigate();
 
@@ -127,6 +128,7 @@ function App({ currentUser, setCurrentUser }) {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/Shop" element={<Shop/>} />
+        <Route path='/contact' element={<Contact/>}/>
         <Route exact path="/checkout" element={<CheckoutPage/>} />
         <Route
           exact

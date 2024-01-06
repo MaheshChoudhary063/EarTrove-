@@ -6,4 +6,17 @@
     .title {
       margin: 10px 0;
     }
+
+    @media only screen and (max-width: 767px) {
+      width: 100%; /* Adjust width to take the full width on small screens */
+      
+      .title {
+        margin: 10px 0; /* You can adjust the margin for better spacing on mobile */
+        font-size: 1.2rem; /* Adjust the font size for better readability on mobile */
+      }
+  
+      /* Add more styles for other elements as needed for mobile devices */
+    }
   }
+
+  
